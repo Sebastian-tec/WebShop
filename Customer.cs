@@ -86,7 +86,7 @@
             do
             {
                 Console.WriteLine("[1] Tilføj mere | [2] Slet fra kurv | [3] Gå til betaling | [4] Vis nuværende ordre");
-            } while (!int.TryParse(Console.ReadLine(), out input) && input != 1 && input != 2);
+            } while (!int.TryParse(Console.ReadLine(), out input));
 
             switch (input)
             {
